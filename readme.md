@@ -1,3 +1,5 @@
+##Below are the original tutorial instructions that I used to re-create this citibike map.  Please note that because this tutorial was over two years old, I utilized different techniques that I am currently learning at Epicodus and therefore there will be variations from the instructions and my approach. 
+
 #![citibike](http://citibikenyc.com/assets/images/header-logo.png) citibike Sinatra forms
 
 ## Objectives
