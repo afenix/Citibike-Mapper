@@ -61,9 +61,7 @@ License
 
 Free and OS License. Code for the people by the people. 2015 Alister Fenix
 
-## If you would like to create your own sinatra based, leaflet app, follow these instructions: 
-
-## Instructions
+#### If you would like to create your own sinatra based, leaflet app, follow these instructions(taken directly from the initial tutorial): 
 
 ### Get up and running
 1. fork and then clone this repo: [https://github.com/ashleygwilliams/citibike-sinatra](https://github.com/ashleygwilliams/citibike-sinatra)
