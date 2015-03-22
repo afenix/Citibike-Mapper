@@ -4,20 +4,20 @@ Citibike App
 
 by Alister Fenix
 
-This is a simple mapping applilcation that allows the user to create a list of hair stylist, and associate each one with a list of clients. All data that is input is stored in a postgres database.
+A simple sinatra app that uses citibike json data, the leaflet api, ruby and javascript to allow users to choose start and ending points from dropdown lists and then see those locations on a map.  Special thanks to Flatiron school for the tutorial and ashleygwilliams for hosting the tutorials repo.      
 
 Installation
 ------------
 
-Install hair_salon by first cloning the repository.  
+First clone the repository.  
 ```
-$ git clone http://github.com/afenix/hair_salon
+$ git clone http://github.com/afenix/citibike-mapper
 ```
 
 ```
 
 Install all of the required gems:
-```
+`code()`
 $ gem pry
 $ gem rspec
 $ gem pg
@@ -28,20 +28,20 @@ $ bundle install
 ```
 Install and start PostGres on system
 
-```
-```
+`code()`
 $ brew install postgres
 echo "export PGDATA=/usr/local/var/postgres" >> ~/.bash_profile
 echo "export PGHOST=/tmp" >> ~/.bash_profile
 source ~/.bash_profile
 
 To start the Postgres server, simply run:
+`code()`
 postgres
 
 ````
 Start the webserver:
 
-```
+`code()`
 $ ruby app.rb
 ```
 
