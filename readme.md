@@ -1,4 +1,4 @@
-##Below are the original tutorial instructions that I used to re-create this citibike map.  
+## Below are the original tutorial instructions that I used to re-create this citibike map.  
 Please note that if you'd like to follow this tutorial do not fork my code since the work will be done for you (what's the point of that). The appropriate repo to fork is noted in the below tutorial instructions.
 #![citibike](http://citibikenyc.com/assets/images/header-logo.png) citibike Sinatra forms
 
