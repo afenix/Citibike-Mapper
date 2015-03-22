@@ -1,6 +1,68 @@
-## Below are the original tutorial instructions that I used to re-create this citibike map.  
-Please note that if you'd like to follow this tutorial do not fork my code since the work will be done for you (what's the point of that). The appropriate repo to fork is noted in the below tutorial instructions.
-#![citibike](http://citibikenyc.com/assets/images/header-logo.png) citibike Sinatra forms
+
+Citibike App
+========
+
+by Alister Fenix
+
+This is a simple mapping applilcation that allows the user to create a list of hair stylist, and associate each one with a list of clients. All data that is input is stored in a postgres database.
+
+Installation
+------------
+
+Install hair_salon by first cloning the repository.  
+```
+$ git clone http://github.com/afenix/hair_salon
+```
+
+```
+
+Install all of the required gems:
+```
+$ gem pry
+$ gem rspec
+$ gem pg
+$ gem sinatra
+$ gem sinatra-contrib
+$ bundle install
+
+```
+Install and start PostGres on system
+
+```
+```
+$ brew install postgres
+echo "export PGDATA=/usr/local/var/postgres" >> ~/.bash_profile
+echo "export PGHOST=/tmp" >> ~/.bash_profile
+source ~/.bash_profile
+
+To start the Postgres server, simply run:
+postgres
+
+````
+Start the webserver:
+
+```
+$ ruby app.rb
+```
+
+In your web browser, go to http://localhost:4567
+
+Contribute
+----------
+
+- Issue Tracker: github.com/afenix/hair_salon
+```/issues
+- Source Code: github.com/afenix/hair_salon
+
+Support
+-------
+
+This app is a work in progress.  By no means is it complete. However, if you are having issues, please let me know at: a.fenix@icloud.com
+
+License
+=======
+
+Free and OS License. Code for the people by the people. 2015 Alister Fenix
 
 ## Objectives
 1. create a form in HTML
