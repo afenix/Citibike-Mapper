@@ -17,7 +17,7 @@ $ git clone http://github.com/afenix/citibike-mapper
 ```
 
 Install all of the required gems:
-`code()`
+```
 $ gem pry
 $ gem rspec
 $ gem pg
@@ -27,8 +27,7 @@ $ bundle install
 
 ```
 Install and start PostGres on system
-
-`code()`
+```
 $ brew install postgres
 echo "export PGDATA=/usr/local/var/postgres" >> ~/.bash_profile
 echo "export PGHOST=/tmp" >> ~/.bash_profile
