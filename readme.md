@@ -46,11 +46,11 @@ In your web browser, go to http://localhost:4567
 
 Contribute
 ----------
-
+```
 - Issue Tracker: github.com/afenix/citibike-mapper
-```/issues
+/issues
 - Source Code: github.com/afenix/citibike-mapper
-
+```
 Support
 -------
 
